@@ -1,0 +1,368 @@
+{
+  "divisionesHabitad" : [
+    {
+      "name" : "Accesorios Hábitat"
+    },
+    {
+      "name" : "Centrífugo para campana"
+    },
+    {
+      "name" : "Centrífugos de falso plafón"
+    },
+    {
+      "name" : "Extractor para baño"
+    },
+    {
+      "name" : "Extractor para pared y cristal"
+    },
+    {
+      "name" : "Extractores Helicocentrífugos"
+    }
+  ],
+  "habitad": [
+    {
+      "name" : "ATENUADORES ACÚSTICOS",
+      "img" : "habitad/COMATEAC.jpg",
+      "description" : "Cuando seleccionamos un atenuador es importante considerar los siguientes parámetros. IL (Insertion Loss) se refiere a la diferencia entre dos niveles de presión sonora, cuando son medidos en el mismo punto antes y después de que el atenuador se ha instalado. Static Pressure Drop que se define como la pérdida de carga a través del atenuador",
+      "specs" : "habitad/AtenuadorSIL.pdf"
+    },
+    {
+      "name" : "DIFUSORES",
+      "img" : "HABACHDIF.jpg",
+      "description" : "Difusores redondos plásticos o de acero con recubrimiento en color blanco, para sistemas de ventilación en general:</br>Casas habitación, hoteles, comercios, salas de juntas, gimnasios, baños, etc.",
+      "specs" : "Difusores.pdf",
+      "models" : [
+        {
+          "ref" : "5RG-100",
+          "description" : "DIFUSOR REDONDO 100",
+          "img": "habitad/difusores/19-RG.jpg"
+        },
+        {
+          "ref" : "5RG-150",
+          "description" : "DIFUSOR REDONDO 150",
+          "img":  "habitad/difusores/19-RG.jpg"
+        },
+        {
+          "ref" : "5RG-200",
+          "description" : "DIFUSOR REDONDO 200",
+          "img":  "habitad/difusores/19-RG.jpg"
+        }
+      ]
+    },
+    {
+      "name" : "DUCTOS",
+      "img" : "habitad/HABACHDUC.jpg",
+      "description" : "Ductos semi rígidos y flexibles para sistemas de ventilación en general:</br>Casas habitación, hoteles, comercios, salas de juntas, gimnasios, baños, etc.",
+      "specs" : "habitad/Ductos.pdf",
+      "models" : [
+        {
+          "ref" : "5DUC-404",
+          "description" : "DUCTO AO48/9 SEMIFLEXIBLE ALUM",
+          "img": "habitad/ductos/19-DSRA.jpg"
+        },
+        {
+          "ref" : "5DUC-405",
+          "description" : "DUCTO AO68/4 SEMIFLEXIBLE ALUM",
+          "img":  "habitad/ductos/19-DSRA.jpg"
+        },
+        {
+          "ref" : "5DUC-406",
+          "description" : "DUCTO A088/4 SEMIFLEXIBLE ALUM",
+          "img":  "habitad/ductos/19-DSRA.jpg"
+        }
+      ]
+    },
+    {
+      "name" : "HIGRÓMETRO",
+      "img" : "habitad/HABACHHIG.jpg",
+      "description" : "Permite regular la operación del ventilador de acuerdo con el porcentaje de humedad indicado, garantizando las condiciones internas deseadas.\nAumenta el control del flujo dependiendo de las necesidades del usuario.\nIdeal para su colocación en baños, cocinas o lavanderías.",
+      "specs" : "habitad/Higrometro.pdf",
+      "models" : [
+        {
+          "ref" : "5-ACC-SHW20",
+          "description" : "SHW-20 WALL MOUNTED DEHUMIDIST AT - J10-810-300 - SHW-20",
+          "img":  "habitad/HABACHHIG.jpg"
+        }
+      ]
+    },
+    {
+      "name" : "REJILLAS",
+      "img" : "habitad/HABACHREJ.jpg",
+      "description" : "Rejillas plásticas, de acero con recubrimiento en color blanco o de aluminio para sistemas de ventilación en general:\nCasas habitación, hoteles, comercios, salas de juntas, gimnasios, baños, etc.",
+      "specs" : "habitad/Rejillas.pdf",
+      "models" : [
+        {
+          "ref" : "5WG-200",
+          "description" : "WALL GRILLE 200",
+          "img":  "habitad/rejillas/19-WG.jpg"
+        },
+        {
+          "ref" : "5WG-250",
+          "description" : "WALL GRILLE 250",
+          "img":  "habitad/rejillas/19-WG.jpg"
+        },
+        {
+          "ref" : "5WG-300",
+          "description" : "WALL GRILLE 300",
+          "img":  "habitad/rejillas/19-WG.jpg"
+        },
+        {
+          "ref" : "5WG-350",
+          "description" : "WALL GRILLE 350",
+          "img":  "habitad/rejillas/19-WG.jpg"
+        }
+      ]
+    },
+    {
+      "name" : "REGULADOR DE VELOCIDAD",
+      "img" : "habitad/COMACCRVE.jpg",
+      "description" : "Proporciona un absoluto control del flujo del aire, regulado por la velocidad de giro del ventilador.\nMonofásico 115 V AC 50/60 Hz.\nMecanismo electromecánico giratorio.\nTemperatura ambiente 40°C.\nMáximo amperaje de funcionamiento 5 y 10 A.\nPerilla fabricada en plástico oscuro y tapa metálica color aluminio.",
+      "specs" : "habitad/FTREGULADORVEL.pdf"
+    },
+    {
+      "name" : "TEMPORIZADOR",
+      "img" : "habitad/HABACHTEM.jpg",
+      "description" : "Utilizable en aplicaciones de gama hábitat, debido a su agradable presentación y fácil manejo.\nFabricado en plástico y certificado con normativa de seguridad UL.\n4 diferentes rangos de tiempo delimitables por el usuario.\nRango de carga: 20A/1HP",
+      "specs" : "",
+      "models" : [
+        {
+          "ref" : "5-ACC-IE005",
+          "description" : "ACC INTERRUPTOR ELECTRONICO",
+          "img":  "habitad/HABACHTEM.jpg"
+        }
+      ]
+    }
+  ],
+  "centrifugoCampana": [
+    {
+      "name" : "CK",
+      "img" : "habitad/HABCK.jpg",
+      "description" : "Alto poder de extracción, facilidad de instalación, limpieza y mantenimiento, bajo consumo de energía, sólidos y compactos, colector de grasas.\nCampanas extractoras: cocinas domésticas, laboratorios, bares, cafeterías, etc.",
+      "specs" : "habitad/FTCK.pdf",
+      "models" : [
+        {
+          "ref" : "CK 25",
+          "description" : "",
+          "img":  "habitad/HABCK.jpg"
+        }
+      ]
+    }
+  ],
+  "centrifugoFalsoPlafon": [
+    {
+      "name" : "CFP",
+      "img" : "habitad/HABCFP.jpg",
+      "description" : "Turbinas de palas curvas adelantadas con balanceo preciso, motores monofásicos con protector térmico integrado para operación continua, rejilla plástica que integra un diseño estético, acabado en pintura de alta resistencia a la corrosión (CFP 225, 500, 600 y 900).\nDebido a su construcción compacta, este equipo es ideal para espacios reducidos en techos o falsos plafones de: hoteles, oficinas, baños, escuelas, restaurantes, etc. CFP 100, 120, 160, 300 Material Plástico CFP 225, 500, 600 y 900 Metal.",
+      "specs" : "habitad/SP-CFP.pdf",
+      "models" : [
+        {
+          "ref" : "CFP-120-127V",
+          "description" : "",
+          "img":  "habitad/HABCFP.jpg"
+        },
+        {
+          "ref" : "CFP-160-127V",
+          "description" : "",
+          "img":  "habitad/HABCFP.jpg"
+        },
+        {
+          "ref" : "CFP-225-127V",
+          "description" : "",
+          "img":  "habitad/HABCFP.jpg"
+        },
+        {
+          "ref" : "CFP-500-127V",
+          "description" : "",
+          "img":  "habitad/HABCFP.jpg"
+        },
+        {
+          "ref" : "CFP-600-127V",
+          "description" : "",
+          "img":  "habitad/HABCFP.jpg"
+        },
+        {
+          "ref" : "CFP-900-127V",
+          "description" : "",
+          "img":  "habitad/HABCFP.jpg"
+        },
+        {
+          "ref" : "CFP-300-127V",
+          "description" : "",
+          "img":  "habitad/HABCFP.jpg"
+        }
+      ]
+    },
+    {
+      "name" : "PC",
+      "img" : "habitad/HABPC.jpg",
+      "description" : "La serie Premium Choice de S&P le brinda la mayor flexibilidad para crear el sistema de ventilación que usted necesita. La simplicidad de los ventiladores de la línea PC reside en la posibilidad de elegir. Mientras que otros extractores Premium vienen iluminados o con control de humedad, control de velocidad o un sensor de humedad integrado, nuestros extractores Premium Choice le ofrecen la flexibilidad para elegir la rejilla y el control por separado.",
+      "specs" : "habitad/SP-PC.pdf",
+      "models" : [
+        {
+          "ref" : "EXT. PC 110 60HZ 4\"",
+          "description" : "",
+          "img":  "habitad/HABPC.jpg"
+        },
+        {
+          "ref" : "EXT. PC 80 60HZ 4\"",
+          "description" : "",
+          "img":  "habitad/HABPC.jpg"
+        },
+        {
+          "ref" : "EXT. PC 110 60HZ 6\"",
+          "description" : "",
+          "img":  "habitad/HABPC.jpg"
+        },
+        {
+          "ref" : "EXT. PC 150 60HZ 6\"",
+          "description" : "",
+          "img":  "habitad/HABPC.jpg"
+        },
+        {
+          "ref" : "EXT. PC 80 60HZ 6\"",
+          "description" : "",
+          "img":  "habitad/HABPC.jpg"
+        }
+      ]
+    }
+  ],
+  "extractorBano": [
+    {
+      "name" : "FUTURE",
+      "img" : "habitad/HABFUT.jpg",
+      "description" : "Perfil extraplano, alto poder de aspiración, fácil limpieza e instalación, silenciosos, seguridad eléctrica total, funcionamiento en cualquier posición, adaptable a todo tipo de decoración o ambiente.",
+      "specs" : "habitad/FTFUTURE.pdf",
+      "models" : [
+        {
+          "ref" : "EXTRACTOR FUTURE-100",
+          "description" : "",
+          "img": "habitad/HABFUT.jpg"
+        },
+        {
+          "ref" : "EXTRACTOR FUTURE-120",
+          "description" : "",
+          "img":  "habitad/HABFUT.jpg"
+        },
+        {
+          "ref" : "EXTRACTOR FUTURE-150",
+          "description" : "",
+          "img":  "habitad/HABFUT.jpg"
+        }
+      ]
+    },
+    {
+      "name" : "SILENT",
+      "img" : "habitad/HABSIL.jpg",
+      "description" : "Diseño patentado por S&P que incluye silentblocks construidos en bimaterial con componentes altamente resistentes y a la vez, capaces de absorber las vibraciones generadas por el motor.\nIncorpora rodamientos a bolas que aseguran una larga vida con las máximas prestaciones.\nCompuerta antirretorno para evitar la entrada del aire del exterior cuando el equipo se encuentra apagado.\nVentilación de aseos y baños en: hoteles, restaurantes, oficinas, locales comerciales, etc. en donde el nivel sonoro sea un requisito importante para la aplicación.",
+      "specs" : "habitad/HABSIL.jpg",
+      "models" : [
+        {
+          "ref" : "EXTRACTOR SILENT-100",
+          "description" : "",
+          "img": "habitad/HABSIL.jpg"
+        },
+        {
+          "ref" : "EXTRACTOR SILENT-200",
+          "description" : "",
+          "img":  "habitad/HABSIL.jpg"
+        },
+        {
+          "ref" : "EXTRACTOR SILENT-300",
+          "description" : "",
+          "img":  "habitad/HABSIL.jpg"
+        }
+      ]
+    },
+    {
+      "name" : "SILENT DESIGN",
+      "img" : "habitad/HABSILDES.jpg",
+      "description" : "Con los extractores SILENT 100 y 200 se pone la más avanzada tecnología al servicio del confort. Su novedoso diseño, hace que las vibraciones generadas por el motor, queden absorbidas en el interior del extractor y no se transmitan al entorno. De esta manera se reduce tanto el ruido del extractor como el de la vibración de techos y paredes.",
+      "specs" : "habitad/F.TSILENTDESIGN.pdf.jpg",
+      "models" : [
+        {
+          "ref" : "SILENT-100 CZ DESIGN-127V-60Hz",
+          "description" : "",
+          "img": "habitad/HABSIL.jpg"
+        },
+        {
+          "ref" : "SILENT-200 CZ DESIGN-127V-60Hz",
+          "description" : "",
+          "img":  "habitad/HABSIL.jpg"
+        }
+      ]
+    }
+  ],
+  "extractorPared": [
+    {
+      "name" : "HAE",
+      "img" : "habitad/HABHAE.jpg",
+      "description" : "La serie HAE de la gama hábitat ha sido desarrollada para aplicaciones en donde se requiera un sistema compacto de ventilación que incluya: ventilador, rejilla frontal de protección y persiana posterior para evitar la introducción de agua, polvo o suciedades en un sólo equipo.",
+      "specs" : "habitad/SP-HAE.pdf",
+      "models" : [
+        {
+          "ref" : "HAE-150-127V",
+          "description" : "",
+          "img": "habitad/HABHAE.jpg"
+        },
+        {
+          "ref" : "HAE-200-127V",
+          "description" : "",
+          "img":  "habitad/HABHAE.jpg"
+        },
+        {
+          "ref" : "HAE-250-127V",
+          "description" : "",
+          "img": "habitad/HABHAE.jpg"
+        },
+        {
+          "ref" : "HAE-300-127V",
+          "description" : "",
+          "img":  "habitad/HABHAE.jpg"
+        }
+      ]
+    },
+    {
+      "name" : "",
+      "img" : "habitad/HABHCM.jpg",
+      "description" : "",
+      "specs" : "habitad/FTHCM.pdf",
+      "models" : [
+        {
+          "ref" : "HCM-150-127V",
+          "description" : "",
+          "img": "habitad/FTHCM.jpg"
+        },
+        {
+          "ref" : "HCM-180-127V",
+          "description" : "",
+          "img":  "habitad/FTHCM.jpg"
+        },
+        {
+          "ref" : "HCM-225-127V",
+          "description" : "",
+          "img":  "habitad/FTHCM.jpg"
+        }
+      ]
+    }
+  ],
+  "helicocentrifugos": [
+    {
+      "name" : "",
+      "img" : "",
+      "description" : "",
+      "specs" : ""
+    },
+    {
+      "name" : "",
+      "img" : "",
+      "description" : "",
+      "specs" : ""
+    },
+    {
+      "name" : "",
+      "img" : "",
+      "description" : "",
+      "specs" : ""
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "habitad" : [
+    {
+      "category": "Accesorios Hábitat",
+      "products": [
+        {
+          "name": "ATENUADORES ACÚSTICOS",
+          "description": "Cuando seleccionamos un atenuador es importante considerar los siguientes parámetros. IL (Insertion Loss) se refiere a la diferencia entre dos niveles de presión sonora, cuando son medidos en el mismo punto antes y después de que el atenuador se ha instalado. Static Pressure Drop que se define como la pérdida de carga a través del atenuador",
+          "img": "habitad/COMATEAC.jpg",
+          "specs": "habitad/AtenuadorSIL.pdf"
+        },
+        {
+          "name": "DIFUSORES",
+          "img": "HABACHDIF.jpg",
+          "description":
+          "Difusores redondos plásticos o de acero con recubrimiento en color blanco, para sistemas de ventilación en general:</br>Casas habitación, hoteles, comercios, salas de juntas, gimnasios, baños, etc.",
+          "specs": "Difusores.pdf",
+          "models": [
+            {
+              "ref": "5RG-100",
+              "description": "DIFUSOR REDONDO 100",
+              "img": "habitad/difusores/19-RG.jpg"
+            },
+            {
+              "ref": "5RG-150",
+              "description": "DIFUSOR REDONDO 150",
+              "img": "habitad/difusores/19-RG.jpg"
+            },
+            {
+              "ref": "5RG-200",
+              "description": "DIFUSOR REDONDO 200",
+              "img": "habitad/difusores/19-RG.jpg"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
+
+

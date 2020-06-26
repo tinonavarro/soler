@@ -1,0 +1,26 @@
+.main-header{
+  height: var(--header-height);
+  &__container{
+    height: 100%;
+    display: grid;
+    grid-template-columns: 10% 1fr auto;
+    grid-gap: 1em;
+    //background-color: lime;
+    align-items: center;
+  }
+}
+.social-networks{
+  @extend %list-style;
+  display: flex;
+  //transform-origin: center;
+  //transform: translateY(-.2em);
+  li{
+    margin-right: .5em;
+  }
+  a{
+    $size: 1.75em;
+    height: $size;
+    width: $size;
+    display: block;
+  }
+}

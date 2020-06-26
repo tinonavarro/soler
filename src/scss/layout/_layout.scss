@@ -1,0 +1,71 @@
+.desktop .container{
+  width: 80%;
+  margin: 0 auto;
+  padding: 0 5.5%;
+  &.no-padding{
+    padding: 0 !important;
+  }
+}
+.mobile .container{
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 5.5%;
+}
+
+.dark{
+  color: $body-bg;
+  background-color: $font-color;
+}
+.light{
+  color: $font-color;
+  background-color: $body-bg;;
+}
+.bg-main{
+  color: $body-bg;
+  background-color: $color-first;
+}
+.bg-dark{
+  color: $body-bg;
+  background-color: $color-dark-alt;
+}
+
+.color-light{
+  color: $body-bg
+}
+
+.color-main{
+  color: $color-first;
+}
+.section{
+  padding: rem(75px) 0;
+  &-subtitle, &-title{
+    text-align: center;
+    line-height: 1;
+    margin-bottom: 0;
+  }
+  &-title{
+    font-size: 2.7em;
+    line-height: 1.2em;
+    text-transform: uppercase;
+    //margin-bottom: 1.2em;
+  }
+}
+
+.button-nav{
+  $size: 2em;
+  border: none;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  height: $size;
+  width: $size;
+  background: transparent;
+  z-index: 75;
+  cursor: pointer;
+  &.prev{
+    left: 0;
+  }
+  &.next{
+    right: 0;
+  }
+}

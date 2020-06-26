@@ -1,0 +1,11 @@
+extends ../config/template
+append config
+  -pageTitle = 'Inicio'
+  -pageImage = '1.jpg'
+
+block main
+  +banner(['9.jpg', '2.jpg', '3.jpg'], 'AADOCCSA', 'Mejora la Temperatura de tu Espacio', 'Contáctanos', 'btn btn-cta cta', '#contacto', 'banner-slider' )
+  include ../sections/sistemaVentilacion
+  include ../sections/comercial
+  include ../sections/easyvent
+  include ../sections/contact-form

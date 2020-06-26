@@ -1,0 +1,45 @@
+-
+  let items = [
+    {
+      name : 'Hábitad',
+      img: 'hause.svg',
+      link: '#'
+    },
+    {
+      name : 'Comercial',
+      img: 'store.svg',
+      link: '#'
+    },
+    {
+      name : 'Industria',
+      img: 'factory.svg',
+      link: '#'
+    },
+    {
+      name : 'OEM',
+      img: 'box.svg',
+      link: '#'
+    },
+    {
+      name : 'APL',
+      img: 'store.svg',
+      link: '#'
+    },
+    {
+      name : 'Recuperadores',
+      img: 'green-energy.svg',
+      link: '#'
+    }
+  ]
+.container.sistemadeventilacion__container
+  each item, index in items
+    if index ===0
+      figure.sistemadeventilacion__item
+        img(src=`img/icons/${item.img}` alt=item.name)
+        figcaption= item.name
+        a.more-info(href=item.link) Más Información
+    else
+      figure.sistemadeventilacion__item
+        img(src=`img/icons/${item.img}` alt=item.name)
+        figcaption= item.name
+        a.more-info(href=item.link) Más Información

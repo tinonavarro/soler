@@ -1,0 +1,31 @@
+section.section.contact-form#contacto
+  h2.section-title.color-light contactanos
+  //-h3.section-subtitle Ayudamos a adecuar tus espacios dedicándonos a la venta, instalación y mantenimiento de equipos para aire desde 1984.
+  form.container.contact-form__form(autocomplete="off" action="php/send-mail.php" method="get")
+    .row.c-2
+      .input-group
+        input(type="text" name="name" id="name" placeholder="*Nombre" pattern="^[A-Za-zÑñÁáÉéÍíÓóÚúÜü\\s]+$" )
+      .input-group
+        input(name="brand" id="brand" value="" required type="hidden" class="hidden" pattern="^[A-Za-zÑñÁáÉéÍíÓóÚúÜü\\s]+$")
+        p#inputMark.input.brand *Servicio
+        ul.options#options
+          li(data-option="Servicio 1") Servicio 1
+          li(data-option="Servicio 2") Servicio 2
+    .row.c-2
+      .input-group
+        input(type="text" name="phone" id="phone" placeholder="*Teléfono" pattern="^[0-9]{10}" )
+      .input-group
+        input(type="email" name="email" id="email" placeholder="*Correo Electrónico" pattern="^[a-z0-9]+(\\.[_a-z0-9]+)*@[a-z0-9-]+(\\.[a-z0-9-]+)*(\\.[a-z]{2,15})" )
+    //-.row.c-2
+      .input-group
+        select(name="select")
+          option(value="1") Mirage
+          option(value="2") York
+
+    .row.c-1
+      .input-group.textarea-group
+        textarea(id="msg" name="message" placeholder="*Mensaje" )
+    footer.contact-form__footer
+      button.btn.btn-send(type="submit") Enviar
+      p#notes.notes
+        //Los campos marcados con * son obligatorios

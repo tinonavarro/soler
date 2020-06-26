@@ -1,0 +1,33 @@
+.main-nav{
+
+}
+.main-menu{
+  @extend %list-style;
+  display: flex;
+  .desktop &{
+    justify-content: flex-end;
+    li{
+      margin-right: 4%;
+      &:last-child{
+        margin-right: 0;
+      }
+    }
+    a{
+      display: block;
+      text-transform: uppercase;
+      font-weight: bold;
+      line-height: 1.8em;
+      padding-right: 1em;
+      padding-left: 1em;
+      border: 1px solid transparent;
+      &.selected, &:hover{
+        border: 1px solid $color-first;
+        color: $color-first;
+        border-radius: .8em;
+      }
+    }
+  }
+  .mobile &{
+    flex-direction: column;
+  }
+}

@@ -1,0 +1,30 @@
+extends ../config/template
+append config
+  -pageTitle = 'Productos'
+  -pageImage = '5.jpg'
+
+block main
+  +bannerFixed('5.jpg','banner-fixed','Productos','Conoce nuestra gama de productos','Contáctanos',"#contacto")
+  section.section.productos__show
+    .productos__category
+      include ../sections/products-category
+    .productos__container.container
+      ul.productos__arrows.sistemadeventilacion__container#productos__arrows
+        each val in [0,1,2,3,4,5]
+          if val===0
+            li.product-arrow-up.active: img(src="img/icons/arroe-up1.svg")
+          else
+            li.product-arrow-up: img(src="img/icons/arroe-up1.svg")
+    .container.productos__content#habitad
+      .productos__list
+        h3.section-title.color-main Divisiones
+        ul.productos__List-list#productsList
+          // each list,i in habitad
+          //   if i===0
+          //     li.active(data-list=`${JSON.stringify(habitad[i])}`)= list.category
+          //   else
+          //     li(data-list=`${JSON.stringify(habitad[i])}`)= list.category
+      .productos__show#productsShoW
+        - let accesorios = habitad[0]
+        //p= accesorios.products[0].name
+

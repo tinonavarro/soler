@@ -1,0 +1,12 @@
+extends ../config/template
+append config
+  -pageTitle = 'Nosotros'
+  -pageImage = '1.jpg'
+
+block main
+  +banner(['10.jpg', '8.jpg', '2.jpg'], 'Nosotros', 'Nuestra Historia', 'Contáctanos', 'btn btn-cta cta', '#contacto', 'banner-slider' )
+  include ../sections/history
+  include ../sections/mission
+  include ../sections/choose
+  include ../sections/focus
+

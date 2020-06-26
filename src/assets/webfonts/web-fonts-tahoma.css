@@ -1,0 +1,14 @@
+@font-face {
+    font-family: 'Tahoma-web';
+    src: url('Tahoma.eot?#iefix') format('embedded-opentype'),  url('Tahoma.woff') format('woff'), url('Tahoma.ttf')  format('truetype'), url('Tahoma.svg#Tahoma') format('svg');
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  
+@font-face {
+    font-family: 'Tahoma-web';
+    src: url('Tahoma-Bold.eot?#iefix') format('embedded-opentype'),  url('Tahoma-Bold.woff') format('woff'), url('Tahoma-Bold.ttf')  format('truetype'), url('Tahoma-Bold.svg#Tahoma-Bold') format('svg');
+    font-weight: 700;
+    font-style: normal;
+  }

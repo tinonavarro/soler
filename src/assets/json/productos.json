@@ -1,0 +1,97 @@
+{
+  "comercial" : [
+    {
+      "categoria" : "accesorios",
+      "productos" : [
+        {
+          "name" : "AFS",
+          "description" :  "El conector AFS® está diseñado específicamente para sistemas de aire acondicionado, sistemas de ventilación y de calentamiento y enfriamiento.\nAl usar el conector AFS® para conectar equipo mecánico con uno o dos ductos de ventilación rígidos tendrá protección contra daños causados por vibraciones mediante la absorción de movimientos laterales",
+          "img" : "comercial/COMACCAFS.jpg",
+          "specs" : "comercial/SP-AFS.pdf",
+          "models" : [
+            {
+              "model" : "CONFLEXLONA",
+              "img" : "comercial/19-AFS.jpg",
+              "description" : "CONECTOR FLEXIBLE DE LONA"
+            },
+            {
+              "model" : "CONFLEX1000",
+              "img" : "comercial/19-AFS.jpg",
+              "description" : "CONECTOR FLEXIBLE DE LONA BDB-1000"
+            },
+            {
+              "model" : "CONFLEX1120",
+              "img" : "comercial/19-AFS.jpg",
+              "description" : "CONECTOR FLEXIBLE DE LONA BDB-1120"
+            },
+            {
+              "model" : "CONFLEX1250",
+              "img" : "comercial/19-AFS.jpg",
+              "description" : "CONECTOR FLEXIBLE DE LONA BDB-1250"
+            },
+            {
+              "model" : "CONFLEX1400",
+              "img" : "comercial/19-AFS.jpg",
+              "description" : "CONECTOR FLEXIBLE DE LONA BDB-1400"
+            },
+            {
+              "model" : "CONFLEX280",
+              "img" : "comercial/19-AFS.jpg",
+              "description" : "CONECTOR FLEXIBLE DE LONA BDB-280"
+            },
+            {
+              "model" : "CONFLEX315",
+              "img" : "comercial/19-AFS.jpg",
+              "description" : "CONECTOR FLEXIBLE DE LONA BDB-315"
+            },
+            {
+              "model" : "CONFLEX355",
+              "img" : "comercial/19-AFS.jpg",
+              "description" : "CONECTOR FLEXIBLE DE LONA BDB-355"
+            },
+            {
+              "model" : "CONFLEX400",
+              "img" : "comercial/19-AFS.jpg",
+              "description" : "CONECTOR FLEXIBLE DE LONA BDB-400"
+            },
+            {
+              "model" : "CONFLEX450",
+              "img" : "comercial/19-AFS.jpg",
+              "description" : "CONECTOR FLEXIBLE DE LONA BDB-450"
+            },
+            {
+              "model" : "CONFLEX500",
+              "img" : "comercial/19-AFS.jpg",
+              "description" : "CONECTOR FLEXIBLE DE LONA BDB-500"
+            },
+            {
+              "model" : "CONFLEX560",
+              "img" : "comercial/19-AFS.jpg",
+              "description" : "CONECTOR FLEXIBLE DE LONA BDB-560"
+            },
+            {
+              "model" : "CONFLEX630",
+              "img" : "comercial/19-AFS.jpg",
+              "description" : "CONECTOR FLEXIBLE DE LONA BDB-630"
+            },
+            {
+              "model" : "CONFLEX710",
+              "img" : "comercial/19-AFS.jpg",
+              "description" : "CONECTOR FLEXIBLE DE LONA BDB-710"
+            },
+            {
+              "model" : "CONFLEX800",
+              "img" : "comercial/19-AFS.jpg",
+              "description" : "CONECTOR FLEXIBLE DE LONA BDB-800"
+            },
+            {
+              "model" : "CONFLEX900",
+              "img" : "comercial/19-AFS.jpg",
+              "description" : "CONECTOR FLEXIBLE DE LONA BDB-900"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

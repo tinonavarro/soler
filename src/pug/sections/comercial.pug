@@ -1,0 +1,32 @@
+-
+  let comerciaItems = [
+    {
+      title : 'HVF',
+      subtitle : 'Ventilador de Techo'
+    },
+    {
+      title : 'CXW',
+      subtitle : 'Ventiladores de Alabes Rectos'
+    },
+    {
+      title : 'HGTA',
+      subtitle : 'Axiales con Transmisión'
+    }
+  ]
+section.section.comercial
+  article.container.comercial__container
+    h2.section-title Línea de División Comercial
+    h3.section-subtitle El software de selección de Soler y Palau
+    ul.comercial__items
+      button.button-nav.prev: img(src="img/icons/left-arrow-light.svg")
+      each item, index in comerciaItems
+        if index ===0
+          li.comercial__item.active
+            p.comercial__title= item.title
+            p.comercial__subtitle= item.subtitle
+        else
+          li.comercial__item
+            p.comercial__title= item.title
+            p.comercial__subtitle= item.subtitle
+      button.button-nav.next: img(src="img/icons/right-arrow-light.svg")
+

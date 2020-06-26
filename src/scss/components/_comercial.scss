@@ -1,0 +1,60 @@
+.comercial{
+  $lg-color1: rgba(#000,.75);
+  $z-background: 50;
+  $z-front: 75;
+  background: img('banner/9.jpg') center / cover;
+  position: relative;
+  color: $body-bg;
+  &::before{
+    content: '';
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: $z-background;
+    background: $lg-color1;
+  }
+  & h2, & h3{
+    color: $body-bg;
+  }
+  &__container{
+    position: relative;
+    z-index: $z-front;
+  }
+  &__items{
+    @extend %list-style;
+    position: relative;
+    width: 100%;
+    display: grid;
+    grid-gap: 2em;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 5em 7em;
+
+  }
+  &__item{
+    text-align: center;
+    color: $firstColorAlt;
+    p{
+      margin: 0;
+      transition: all .3s;
+      font-weight: bold;
+      &:last-child, &:last-of-type{
+        opacity: 0;
+      }
+    }
+    &.active{
+      color: $body-bg;
+      p:last-child, p:last-of-type{
+        opacity: 1;
+      }
+    }
+  }
+  &__title{
+    font-size: 2.5em;
+  }
+  &__subtitle{
+    //font-size: 1.3em;
+  }
+}

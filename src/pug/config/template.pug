@@ -1,0 +1,38 @@
+block config
+  include variables1
+
+include ../includes/mixins
+
+doctype html
+html(lang="es")
+  head
+    title= `${siteName} - ${pageTitle}`
+    meta(charset="utf-8")
+    meta(name="description" content=pageDescription)
+    meta(name="viewport" content="initial-scale=1.0, width=device-width")
+    meta(name="twitter:card" content="summary_large_image")
+    meta(name="twitter:site" content=twitterAccount)
+    meta(property="og:title" content=pageTitle)
+    meta(property="og:description" content=pageDescription)
+    meta(property="og:image" content=`${pageUrl}/img/banner/${pageImage}`)
+    link(rel="stylesheet" href="assets/css/tiny-slider.css")
+    link(rel="stylesheet" href="assets/css/owl/owl.theme.default.min.css")
+    link(rel="stylesheet" href="assets/webfonts/web-fonts-tahoma.css")
+    link(rel="stylesheet" href="css/styles.css")
+    link(rel="shortcut icon" href="img/favicon.png")
+
+  body(class=`${pageTitle.toLowerCase()}-page`)
+    header.main-header#mainHeader
+      include ../includes/header
+    main
+      block main
+    footer.footer-grall
+      include ../includes/footer-data
+      include ../includes/footer
+    .loading#loading
+      img(src="img/Ripple-1s-200px.svg" alt="Loading Page")
+
+    //-script(src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous")
+    script(src="assets/js/tiny-slider.js")
+    script(src="js/scripts-min.js")
+

@@ -1,0 +1,19 @@
+$path: '../img/';
+@function img($img) {
+  @return url($path + $img);
+}
+
+@function rem($px) {
+  @return ($px / 16px) * 1rem;
+}
+
+@function  em($ele, $context:16px){
+  $em: ($ele / $context) * 1em;
+  @return $em;
+}
+
+%list-style{
+  list-style: none;
+  padding-left: 0;
+  margin-bottom: 0;
+}

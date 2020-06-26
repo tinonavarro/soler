@@ -1,0 +1,49 @@
+mixin img(className,src,ext,alt)
+  //- img(src="https://ed.team/static/images/logo-alt.svg")
+  picture(class=className id=className)
+    source(srcset= `img/${src}-xl.${ext}` media="(min-width: 1800px) and (orientation:landscape)")
+    source(srcset= `img/${src}-l.${ext}` media="(min-width: 1200px) and (orientation:landscape)")
+    source(srcset= `img/${src}-m.${ext}` media="(min-width: 800px) and (orientation:landscape)")
+    source(srcset= `img/${src}-mp.${ext}` media="(min-width: 800px) and (orientation:portrait)")
+    source(srcset= `img/${src}-s.{ext}` media="(max-width: 360px) and (orientation:landscape)")
+    source(srcset= `img/${src}-sp.{ext}` media="(max-width: 360px) and (orientation:portrait)")
+    img(src=`img/${src}.${ext}` alt=alt)
+
+mixin banner(images, mainText,textSecondary, textButton,classButton,hrefButton,classN)
+  section(class=`banner ${classN}`)#banner
+    .banner-container.my-slider
+      each img, i in images
+        img(src=`img/banner/${img}` alt="banner Aadoccsa" class="banner__image")
+    .banner-content
+      h2= mainText
+      p= textSecondary
+      a(class=classButton href=hrefButton data-href=hrefButton)= textButton
+
+mixin bannerFixed(img,classN,mainText,slug,textButton,hrefButton )
+  section(class=`banner ${classN}`)#banner
+    .banner__container.banner__container--fixed
+      img(src=`img/banner/${img}` alt="banner Aadoccsa" class="banner__image")
+    .banner-content
+      h2= mainText
+      p=slug
+      a(class=classButton href=hrefButton data-href=hrefButton)= textButton
+
+mixin itemProduct(name,imgLarge,spects,linkContact,nClass,dIndex)
+  figure(data-name=`${name}` data-img=`${imgLarge}` data-index=`${dIndex}` class=`${nClass}`)
+    div(class=`${nClass}__full-page` data-name=`${name}` data-img=`${imgLarge}`)
+      img(src='img/icons/full-page.svg' alt='' data-name=`${name}` data-img=`${imgLarge}`)
+    div(class=`${nClass}__img`)
+      img(src=`${imgLarge}` alt=`${name}` class=`${nClass}__img`)
+    footer.item-footer
+      figcaption= `${name}:`
+      a(class=`${nClass}__link-spects` target="_blank" href=`${spects}`) Ficha técnica
+      a(class=`${nClass}__link-contact` href="#contacto") Solicitar cotización
+
+mixin itemProductMinimalist(imgLarge,linkContact,nClass,dIndex)
+  figure(data-name=`${name}` data-img=`${imgLarge}` data-index=`${dIndex}` class=`${nClass}`)
+    div(class=`${nClass}__full-page` data-name=`${name}` data-img=`${imgLarge}`)
+      img(src='img/icons/full-page.svg' alt='' data-name=`${name}` data-img=`${imgLarge}`)
+    div(class=`${nClass}__img`)
+      img(src=`${imgLarge}` alt=`${name}` class=`${nClass}__img`)
+    footer.item-footer
+      a(class=`${nClass}__link-contact` href="#contacto") Solicitar cotización

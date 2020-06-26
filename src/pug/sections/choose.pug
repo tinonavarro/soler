@@ -1,0 +1,22 @@
+-
+  let options = [
+    {
+      img: 'idea.svg',
+      text: 'Innovación'
+    },
+    {
+      img: 'stamp.svg',
+      text: 'Distribuidores Autorizados'
+    },
+    {
+      img: 'call-center.svg',
+      text: 'Alto Nivel de Servicio'
+    }
+  ]
+section.section.container.choose
+  h2.section-title.color-main ¿Por qué elegirnos?
+  ul.choose__container
+    each item in options
+      li
+        img(src=`img/icons/${item.img}` alt=item.text)
+        p.choose__text= item.text

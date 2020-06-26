@@ -1,0 +1,112 @@
+$buttonsHeight: 3em;
+.banner {
+  width: 100%;
+  position: relative;
+  height: auto;
+  --z-buttons: 75;
+  --z-banner: 50;
+  &::before{
+    content: '';
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background: #fff;
+    opacity: .7;
+    top: 0;
+    left: 0;
+    z-index: var(--z-banner);
+  }
+}
+.tns-nav{
+  position: absolute;
+  z-index: var(--z-buttons);
+  width: auto;
+  height: auto;
+  top: 50%;
+  left: 50%;
+  transform: translateY(var(--banner-data-height)) translateX(-50%);
+  //height:  ;
+  button{
+    $size: .8em;
+    display: inline-block;
+    background-color: $color-first-alt;
+    height: $size;
+    width: $size;
+    line-height: $size;
+    border-radius: 50%;
+    margin-right: .3em;
+    border: none;
+    transform-origin: center;
+    transform: scale(.8);
+    &:last-child{
+      margin-right: 0;
+    }
+    &.tns-nav-active{
+      background: $color-first;
+    }
+  }
+
+}
+.tns-outer button[data-action="start"], .tns-outer button[data-action="stop"]{
+  display: none;
+}
+.tns-controls{
+  position: absolute;
+  display: block;
+  max-width: 80%;
+  width: 100%;
+  height: $buttonsHeight;
+  left: 50%;
+  top: 50%;
+  transform: translateY(-50%) translateX(-50%);
+  z-index: var(--z-buttons) ;
+}
+.tns-controls button{
+  position: absolute;
+  top: 0;
+  width: $buttonsHeight;
+  height: $buttonsHeight;
+  display: block;
+  border: none;
+  z-index: var(--z-buttons) ;
+  background: transparent;
+  &:first-of-type, &:first-child{
+    left: 0;
+  }
+  &:last-child, &:last-of-type{
+    right: 0;
+  }
+}
+.banner-content{
+  position: absolute;
+  width: auto;
+  height: auto;
+  left: 50%;
+  top: 50%;
+  transform: translateY(-50%) translateX(-50%);
+  z-index: var(--z-buttons);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  h2{
+    font-size: 5em;
+    color: $color-first;
+    margin-bottom: 0;
+    line-height: 1;
+    text-transform: uppercase;
+  }
+  p{
+    font-size: 1.5em;
+    margin-bottom: 1em;
+    font-weight: bold;
+  }
+  a{
+    background: $font-color;
+    color: $body-bg;
+    line-height: 1.8;
+    padding: 0 1.3em;
+    border-radius: 1em;
+    font-size: .9em;
+  }
+}
